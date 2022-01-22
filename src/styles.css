@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(224, 201, 255, 0.2);
+
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.chips-container {
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  background-color: rgb(224, 201, 255, 30%);
+
+  padding: 0.25rem;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+  min-height: 3.6875rem;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: rgb(224, 201, 255);
+  margin: 0.5rem;
+  border-radius: 1.5rem;
+}
+
+.chip p {
+  display: inline-block;
+}
+
+.chip-input-box {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 1.25rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.chip-input-box:focus {
+  outline: none;
+  border: none;
+}
